@@ -1,0 +1,39 @@
+[
+    {
+        "model": "levelupapi.event",
+        "pk": 1,
+        "fields": {
+            "game": 1,
+            "organizer": 1,
+            "date": "2021-05-28T14:51:39.989Z",
+            "description": "Don't go bankrupt",
+            "attendees": []
+        }
+        
+    },
+
+    {
+        "model": "levelupapi.event",
+        "pk": 2,
+        "fields": {
+            "game": 2,
+            "organizer": 1,
+            "date": "2021-06-28T14:51:39.989Z",
+            "description": "Who wants peace",
+            "attendees": []
+        }
+    },
+
+    {
+        "model": "levelupapi.event",
+        "pk": 3,
+        "fields": {
+            "game": 3,
+            "organizer": 1,
+            "date": "2021-07-28T14:51:39.989Z",
+            "description": "The mission starts now",
+            "attendees": []
+        }
+    }
+
+]
