@@ -1,0 +1,12 @@
+{
+    "python.linting.pylintEnabled": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Level Up",
+            "database": "db.sqlite3"
+        }
+    ],
+    "python.pythonPath": "/home/tracyd/.local/share/virtualenvs/levelup-biAeEmWd/bin/python"
+}
