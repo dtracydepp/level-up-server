@@ -3,8 +3,10 @@
         "model": "levelupapi.game",
         "pk": 1,
         "fields": {
-            "game_type": 1,
             "title": "Monopoly",
+            "maker": "Parker Brothers",
+            "gamer": 1,
+            "game_type": 1,    
             "number_of_players": 6,
             "skill_level": "Expert"
         }
@@ -14,8 +16,10 @@
         "model": "levelupapi.game",
         "pk": 2,
         "fields": {
-            "game_type": 2,
             "title": "Assassin's Creed",
+            "maker": "Ubisoft",
+            "gamer": 1,
+            "game_type": 2, 
             "number_of_players": 2,
             "skill_level": "Intermediate"
         }
@@ -25,8 +29,10 @@
         "model": "levelupapi.game",
         "pk": 3,
         "fields": {
-            "game_type": 3,
             "title": "The Division 2",
+            "maker": "Massive Entertainment",
+            "gamer": 1,
+            "game_type": 3,
             "number_of_players": 4,
             "skill_level": "Beginner"
         }

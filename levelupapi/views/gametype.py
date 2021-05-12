@@ -38,6 +38,8 @@ class GameTypeView(ViewSet):
         return Response(serializer.data)
 
 
+# Serializer
+
 class GameTypeSerializer(serializers.ModelSerializer):
     """JSON serializer for game types
 
