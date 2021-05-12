@@ -136,5 +136,5 @@ class EventSerializer(serializers.ModelSerializer):
     class Meta:
         model = Event
         fields = ('id', 'game', 'organizer',
-                  'description', 'start_date')
+                  'description', 'date')
         depth = 1
