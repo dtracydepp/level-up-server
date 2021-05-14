@@ -2,7 +2,7 @@ from django.db import models
 
 
 
-class Game (models.Model):
+class Game(models.Model):
 
     title = models.CharField(max_length=75)
     maker = models.CharField(max_length=75)

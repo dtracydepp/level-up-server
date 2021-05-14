@@ -23,7 +23,6 @@ class EventView(ViewSet):
         gamer = Gamer.objects.get(user=request.auth.user)
 
         event = Event()
-        event.time = request.data["time"]
         event.date = request.data["date"]
         event.description = request.data["description"]
         event.organizer = gamer
