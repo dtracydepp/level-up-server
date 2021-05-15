@@ -26,12 +26,14 @@ from rest_framework import routers
 from levelupapi.views import GameTypeView
 from levelupapi.views import gametype, game
 from levelupapi.views import event
+from levelupapi.views.profile import Profile
 
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'gametypes', GameTypeView, 'gametype')
 router.register(r'games', GameView, 'game')
 router.register(r'events', EventView, 'event')
+router.register(r'profile', Profile, 'profile')
 
 urlpatterns = [
     path('', include(router.urls)),
