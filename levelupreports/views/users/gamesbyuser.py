@@ -54,6 +54,7 @@ def usergame_list(request):
             #     }
             # }
 
+            # new dictionary from query results
             games_by_user = {}
 
             for row in dataset:
