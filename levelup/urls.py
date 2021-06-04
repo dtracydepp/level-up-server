@@ -42,5 +42,6 @@ urlpatterns = [
     path('register', register_user),
     # Requests to http://localhost:8000/login will be routed to the login_user function
     path('login', login_user),
+    path('', include('levelupreports.urls')),
     path('api-auth', include('rest_framework.urls', namespace='rest_framework')),
 ]
